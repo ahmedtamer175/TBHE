@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 4500px;
+}
+
+/* المقدمة */
+
+.startdv{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/cross\ crunches.jpg);
+    padding-top: -100;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+
+   
+
+
+.start{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    color: aliceblue;
+    padding-top: 100px;
+}
+.start1{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.a5{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 8px;
+    border: 2px solid #ffffff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 42%;
+    width: 90px;
+    transition: 0.2s;
+    
+}
+.a5:hover{
+    background-color: grey;
+    
+}
+
+.dv3{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    border: 5px solid rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 40px;
+}
+
+.r4{
+    font-size: 18px;
+    font-family: 'Changa', sans-serif;
+    transition: 0.7s;
+    color: aliceblue;
+    text-align: center;
+}
+
+.a6{
+    margin-left: 20px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Changa', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.a6dv{
+    width: 210px;
+    height: 120px;
+    background-color: #ffffff;
+    visibility: hidden;
+    margin-top: 110px;
+    margin-left: -170px;
+    border: 2px solid black;
+    border-radius: 7%;
+
+}
+.a6:hover ~ .a6dv{
+    visibility: visible;
+    padding-top: 20px;
+}
+
+.a7{
+    margin: auto;
+    margin-left: -20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Changa', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.a7dv{
+    width: 210px;
+    height: 140px;
+    background-color: #ffffff;
+    visibility: hidden;
+    margin-top: 110px;
+    margin-left: -190px;
+    border: 2px solid black;
+    border-radius: 7%;
+}
+.a7:hover ~ .a7dv{
+    visibility: visible;
+    padding-top: 20px;
+}
+
+
+.a8{
+    margin-left: 80px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Changa', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.a8dv{
+
+width: 210px;
+height: 120px;
+background-color: #ffffff;
+visibility: hidden;
+margin-top: 110px;
+margin-left: -170px;
+border: 2px solid black;
+border-radius: 7%;
+}
+.a8:hover ~ .a8dv{
+    visibility: visible;
+    padding-top: 20px;
+}
+
+.chose{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(90deg, rgba(253, 146, 146, 1), rgba(209, 254, 212, 1));
+    justify-content: space-around;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.chose1{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    margin-top: 70px;
+    margin-left: 10px;
+    object-fit: cover;
+    transition: 0.7s;
+    border-radius: 5%;    
+}
+.chose1:hover{
+    
+    margin-top: -30px;
+}
+.البطن{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    margin-top: 10px;
+    color: black;
+}
+.a2{
+    text-decoration: none;
+    
+    
+}
+
+.a1{
+    text-decoration: none;
+   margin-left: 28%;
+}
+.a22{
+text-decoration: none;
+margin-left: 1%;
+}
+
+
+.r1{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(142, 110, 110);
+    margin-left: 47px;
+    
+}
+.r2{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(142, 110, 110);
+    margin-left: 50px;
+    
+}
+.dv1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.r3{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    
+}
+.r33{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 170px;
+}
+
+
+.chose2{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    margin-top: 70px;
+    margin-left: 70px;
+    object-fit: cover;
+    transition: 0.7s;
+    border-radius: 5%;    
+}
+
+.chose2:hover{
+    
+    margin-top: -30px;
+}
+
+.a3{
+    text-decoration: none;
+   
+}
+
+.الصدر{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    margin-top: 10px;
+    color: black;
+}
+
+.chose3{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    margin-top: 70px;
+    margin-left: 70px;
+    transition: 0.7s;
+    border-radius: 5%;    
+}
+.chose3:hover{
+    
+    margin-top: -30px;
+}
+.a4{
+    text-decoration: none;
+}
+
+.choses{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(90deg, rgba(218, 250, 48, 1), rgba(228, 218, 47, 1) 58%, rgba(253, 134, 44, 1) 86%, rgba(231, 46, 143, 1));
+  
+    justify-content: space-around;
+}
+
+.r5{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+.dv2{
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.r7{
+    
+    font-family: 'Rubik', sans-serif;
+    text-align: end;
+    color: rgb(72, 72, 100);
+    font-size: 29px;
+}
+
+.r6{
+    text-align: end;
+    font-family: 'Cairo', sans-serif;
+    text-align: end;
+    color: red;
+    /* background-color: #ffffff; */
+    width: 1000px;
+}
+
+
+.dv4{
+    width: 1000px;
+    height: 550px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.8), 0px 0px 15px rgba(20, 20, 20, 0.9);
+    margin: auto;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+.dv5{
+    width: 1000px;
+    height: 1800px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.8), 0px 0px 15px rgba(20, 20, 20, 0.9);
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+
+.more{
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(90deg, rgba(218, 250, 48, 1), rgba(228, 218, 47, 1) 58%, rgba(253, 134, 44, 1) 86%, rgba(231, 46, 143, 1));
+    border-radius: 20px;
+}
+
+.r8{
+    font-family: 'Changa', sans-serif;
+    transition: 0.4s;
+}
+.r8:hover{
+    
+    opacity: 40%;
+}
+
+
+
+
+
+
+
+
+
